@@ -1,24 +1,4 @@
-# PermutoSDF
-
-
-### [Project Page](https://radualexandru.github.io/permuto_sdf) | [Paper](https://arxiv.org/abs/2211.12562) | [Data](https://drive.google.com/drive/folders/1IcCtveUyQ4sHwVpdyjLt28rAdHYFHmtT?usp=share_link)
-
-[PermutoSDF: Fast Multi-View Reconstruction with Implicit Surfaces using Permutohedral Lattices](https://radualexandru.github.io/permuto_sdf)
-<br>
- [Radu Alexandru Rosu](https://radualexandru.github.io/),
- [Sven Behnke](https://www.ais.uni-bonn.de/behnke/)
- <br>
- University of Bonn, Autonomous Intelligent Systems
-
-
-<p align="middle">
-  <img src="imgs/teaser_big_white_s3.png" width="650"/>
-</p>
-
-PermutoSDF is a system capable of recovering highly detailed 3D reconstructions given only 2D images with poses. We propose to use a hashed [permutohedral encoding] to ensure fast training and a novel RGB regularizer to encourage the network to predict high-frequency geometric detail. 
-We model the scene as two neural networks that predict an SDF and a color field. Volume rendering is used to train the two networks end-to-end. After training we can switch to sphere tracing and render at interactive speeds.
-
-
+on hand to implement permuto encode to 
 # Install 
 
 Since PermutoSDF requires PyTorch to be installed with CXX_ABI=1, it's best to use the provided dockerfile:
