@@ -151,24 +151,6 @@ We provide a small example of creating a custom dataset with [./permuto_sdf_py/e
 Running the script should show something like this where the bounding sphere is in the center and in red are the frustums of all the cameras. \
 <img src="imgs/custom_data.png" width="500"/>
 
-
-# License
-PermutoSDF is provided under the terms of the MIT license (see LICENSE). 
-
-
-
-# Citation
-```
-@inproceedings{rosu2023permutosdf,
-    title={PermutoSDF: Fast Multi-View Reconstruction with 
-            Implicit Surfaces using Permutohedral Lattices  },
-    author={Radu Alexandru Rosu and Sven Behnke},
-    booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-    year={2023}
-}
-```
-
-
 [permutohedral encoding]: <https://github.com/RaduAlexandru/permutohedral_encoding>
 [permutohedral_encoding]: <https://github.com/RaduAlexandru/permutohedral_encoding>
 [EasyPBR]: <https://github.com/RaduAlexandru/easy_pbr>
